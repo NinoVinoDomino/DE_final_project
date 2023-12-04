@@ -1,0 +1,2 @@
+25 2 * * * /home/deaian/trsh/project/main.py 1>> /home/deaian/trsh/project/main.log  2>> /home/deaian/trsh/project/errors.log 
+
