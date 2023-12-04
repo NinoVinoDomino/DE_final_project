@@ -10,7 +10,7 @@ The task is to develop an **ETL process** that receives a daily data upload
 3. List of ATMs in XLSX (1 file in 1 day, contains whole list)
 4. List of banned passports XLSX (1 file in 1 day, contains monthly info)
    
-Data comes from the files with the help of psycopg2 library. It updates according to the SCD2 approach.
+Data comes from the files with the help of os and re library, connection to databases with psycopg2 library. It updates according to the SCD2 approach.
 
 # Expected outcome
 Based on the download results, it is necessary to build a **fraudulent transactions report** on a daily basis. The showcase is built by accumulation,
