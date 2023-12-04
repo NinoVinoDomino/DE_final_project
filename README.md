@@ -14,7 +14,7 @@ Data comes from the files with the help of os and re library, connection to data
 
 # Expected outcome
 Based on the download results, it is necessary to build a **fraudulent transactions report** on a daily basis. The showcase is built by accumulation,
-each new report is placed in the same table with a new report_dt
+each new report is placed in the same table with a new report_dt. Update is scheduled with the help of cron file.
 
 # Structure of the final database
 Database build can be found in DDL file.
