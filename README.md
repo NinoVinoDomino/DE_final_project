@@ -16,4 +16,9 @@ Data comes from the files with the help of psycopg2 library. It updates accordin
 Based on the download results, it is necessary to build a **fraudulent transactions report** on a daily basis. The showcase is built by accumulation,
 each new report is placed in the same table with a new report_dt
 
+# Structure of the final database
+Database build can be found in DDL file.
+![image](https://github.com/NinoVinoDomino/DE_final_project/assets/98032823/fe130e8a-2202-42a9-b23f-ab79b2e22e57)
+
+
 
